@@ -26,13 +26,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: var(--color-text);
+    color: var(--color-subtext);
 
     margin-top: 1.5rem;
 }
 
 .gpt3__header-content__input {
-    width: 100%;
+    width: 40%;
     margin: 2rem 0 1rem;
 
     display: flex;
@@ -95,7 +95,7 @@
     margin: 0 0 0 1rem;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 38px;
     color: #fff;
     text-align: center;
@@ -156,13 +156,13 @@
     }
 
     .gpt3__header-content p {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 24px;
     }
 
     .gpt3__header-content__input input,
     .gpt3__header-content__input button {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 16px;
     }
 }

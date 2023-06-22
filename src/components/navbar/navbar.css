@@ -18,8 +18,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 162.56px;
+    height: 116.02px;
 }
 
 .gpt3__navbar-links_container {
@@ -40,7 +40,7 @@
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
     text-transform: capitalize;
 
@@ -55,7 +55,7 @@
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
     border: none;
     outline: none;
