@@ -19,6 +19,10 @@ const WhatGPT3 = () => (
       <Feature title="Architecture, Design Patterns" text="Architecture training focuses on understanding and applying architectural principles, design concepts, and patterns to develop a well-structured and modular software architecture. It covers topics such as architectural styles, layers, components, and deployment strategies. Design Patterns training delves into proven solutions to common software design problems, equipping developers with reusable patterns to enhance code quality, flexibility, and extensibility." />
    
     </div>
+    <div className="gpt3__whatgpt3-container">
+    <Feature title="Tdd Approch" text="TDD training emphasizes a test-first approach, where developers write tests before implementing functionality. It teaches the process of writing small, automated tests to validate code, driving the development process and ensuring code correctness, reliability, and maintainability. By combining these trainings, professionals gain the skills to design scalable architectures, apply best practices through patterns, and build high-quality software through a disciplined and test-driven development approach." />
+   
+    </div>
   </div>
 );
 
