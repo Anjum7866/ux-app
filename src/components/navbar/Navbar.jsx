@@ -37,7 +37,6 @@ const Navbar = () => {
       <p><a href="#home">Home</a></p>
           
           <p><a href="#services">Services</a></p>
-          <p><a href="#tdd">TDD Approach</a></p>
             <p><a href="#about-us">About Us</a></p>
           <p><a href="#contact-us">Contact Us</a></p>
       </div>
