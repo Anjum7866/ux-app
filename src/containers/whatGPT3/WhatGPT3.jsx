@@ -19,11 +19,7 @@ const WhatGPT3 = () => (
       <Feature title="Architecture, Design Patterns" text="Architecture training focuses on understanding and applying architectural principles, design concepts, and patterns to develop a well-structured and modular software architecture. " />
    
     </div>
-    <div className="gpt3__whatgpt3-container">
-    <Feature title="Tdd Approch" text="TDD training emphasizes a test-first approach, where developers write tests before implementing functionality. " />
-   
     </div>
-  </div>
 );
 
 export default WhatGPT3;
