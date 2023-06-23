@@ -42,7 +42,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: var(--color-text);
+    color: var(--color-subtext);
 }
 
 @media screen and (max-width: 550px) {

@@ -4,13 +4,13 @@
   --font-family: 'Manrope', sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  --gradient-bar2: linear-gradient(103.22deg, #12c2e9 -13.86%, #f64f59 );
+  --gradient-bar:  linear-gradient(89.97deg, #240b36 1.84%,  #c31432 102.67%);
+  --gradient-bar2: linear-gradient(103.22deg, #2c056b -13.86%, #f64f59 );
   
   --color-bg: linear-gradient(89.97deg, #0f0c29 1.84%, #302b63 102.67%,#24243e);
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #031B34;
   --color-subtext: #ffffff;
-  --color-subtext: #FF8A71;
+  /* --color-subtext: #FF8A71; */
 }

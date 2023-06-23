@@ -6,7 +6,7 @@ const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="services">
     
     <div className="gpt3__whatgpt3-heading">
-      <h1>Services</h1>
+      <h1 >Training</h1>
      
     </div>
     <div className="gpt3__whatgpt3-container">
