@@ -1,4 +1,4 @@
-.gpt3__about {
+.auto__about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,7 @@
     background: var(--gradient-bar)
 }
 
-.gpt3__about-content {
+.auto__about-content {
     display: flex;
     flex-direction: column;
 
@@ -17,21 +17,21 @@
     color: #fff;
 }
 
-.gpt3__about-content p {
+.auto__about-content p {
     font-family: var(--font-family);
     font-size: 18px;
     line-height: 25px;
     font-weight: 500;
 }
 
-.gpt3__about-content h3 {
+.auto__about-content h3 {
     font-family: var(--font-family);
     font-size: 24px;
     line-height: 45px;
     font-weight: 800;
 }
 
-.gpt3__about-btn {
+.auto__about-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
     margin-left: 2rem;
 }
 
-.gpt3__about-btn button {
+.auto__about-btn button {
     background: #000;
     color: #fff;
     font-family: var(--font-family);
@@ -56,27 +56,27 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__about {
+    .auto__about {
         flex-direction: column;
     }
 
-    .gpt3__about-btn {
+    .auto__about-btn {
         margin: 2rem 0 0;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__about {
+    .auto__about {
         flex-direction: column;
         margin: 4rem 2rem;
     }
 
-    .gpt3__about-content h3 {
+    .auto__about-content h3 {
         font-size: 18px;
         line-height: 32px;
     }
 
-    .gpt3__about-btn button {
+    .auto__about-btn button {
         font-size: 20px;
         line-height: 28px;
     }

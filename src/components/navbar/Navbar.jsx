@@ -24,23 +24,23 @@ const Navbar = () => {
   };
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+    <div className="auto__navbar">
+      <div className="auto__navbar-links">
+        <div className="auto__navbar-links_logo">
         <img src={logo} alt="logo"/>
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="auto__navbar-links_container">
 
          </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="auto__navbar-sign">
       <p><a href="#home">Home</a></p>
       <p><a href="#about-us">About Us</a></p>
           <p><a href="#training">Training</a></p>
            
           <p><a href="#contact-us">Contact Us</a></p>
       </div>
-      <div className='gpt3_navbar-menu'>
+      <div className='auto_navbar-menu'>
       {isMobile && (
         toggleMenu ? (
           <FaTimes color="#fff" size={27} onClick={handleClick} />
@@ -49,15 +49,15 @@ const Navbar = () => {
         )
       )}
       {toggleMenu && isMobile && (
-        <div className="gpt3__navbar-menu_container scale-up-center">
-          <div className="gpt3__navbar-menu_container-links">
+        <div className="auto__navbar-menu_container scale-up-center">
+          <div className="auto__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
             <p><a href="#features">Training</a></p>
-            <p><a href="#wgpt3">About Us</a></p>
+            <p><a href="#wauto">About Us</a></p>
             <p><a href="#possibility">Contact Us</a></p>
           
           </div>
-          {/* <div className="gpt3__navbar-menu_container-links-sign">
+          {/* <div className="auto__navbar-menu_container-links-sign">
             <p>Sign in</p>
             <button type="button">Sign up</button>
           </div> */}
