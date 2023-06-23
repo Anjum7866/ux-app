@@ -3,7 +3,7 @@ import Feature from '../../components/feature/Feature';
 import './training.css';
 
 const Training = () => (
-  <div className="gpt3__training section__margin" id="services">
+  <div className="gpt3__training section__margin" id="training">
     
     <div className="gpt3__training-heading">
       <h1 >Training</h1>
