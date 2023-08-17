@@ -52,9 +52,10 @@ const Navbar = () => {
         <div className="auto__navbar-menu_container scale-up-center">
           <div className="auto__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#features">Training</a></p>
-            <p><a href="#wauto">About Us</a></p>
-            <p><a href="#possibility">Contact Us</a></p>
+            <p><a href="#about-us">About Us</a></p>
+            <p><a href="#training">Training</a></p>
+           
+           <p><a href="#contact-us">Contact Us</a></p>
           
           </div>
           {/* <div className="auto__navbar-menu_container-links-sign">

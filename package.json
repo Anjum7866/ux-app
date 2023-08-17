@@ -1,6 +1,7 @@
 {
-  "name": "ux-app",
+  "name": "autopy",
   "version": "0.1.0",
+  "homepage":"http://autopy.in",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
