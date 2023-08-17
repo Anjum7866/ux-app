@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import { Footer,  Header, Training, Contact } from './containers';
-import { AboutUs,  Navbar, Services} from './components';
+import { Footer,  Header, Training, Contact, Services } from './containers';
+import { AboutUs,  Navbar} from './components';
 
 const App = () => {
   return (

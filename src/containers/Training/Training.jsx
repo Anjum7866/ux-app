@@ -1,25 +1,25 @@
 import React from 'react';
-import Article from '../../components/article/Article';
-import { blog01, blog02, blog03, blog04, blog05 } from './imports';
-import './blog.css';
+import Feature from '../../components/feature/Feature';
+import './training.css';
 
-const Blog = () => (
-  <div className="gpt3__blog section__padding" id="blog">
-    <div className="gpt3__blog-heading">
-      <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
+const Training = () => (
+  <div className="auto__training section__margin" id="training">
+    
+    <div className="auto__training-heading">
+      <h1 >Training</h1>
+     
     </div>
-    <div className="gpt3__blog-container">
-      <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-      </div>
-      <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-      </div>
+    <div className="auto__training-container">
+      <Feature title="DevOps" text="DevOps training is a comprehensive program designed to equip individuals with the necessary skills and knowledge to excel in the field of DevOps, a collaborative approach that combines software development and IT operations." />
+      <Feature title="Agile/ Scrum Training" text="Agile/Scrum training is a specialized program that equips individuals with the knowledge and skills to effectively adopt and implement Agile methodologies, with a particular focus on the Scrum framework." />
+      
     </div>
-  </div>
+    <div className="auto__training-container">
+    <Feature title="GitHub, Co-Pilot & ChatGPT" text="GitHub, Co-Pilot, and ChatGPT training are three distinct but interconnected domains that contribute to software development and AI-driven capabilities. " />
+      <Feature title="Architecture, Design Patterns" text="Architecture training focuses on understanding and applying architectural principles, design concepts, and patterns to develop a well-structured and modular software architecture. " />
+   
+    </div>
+    </div>
 );
 
-export default Blog;
+export default Training;
