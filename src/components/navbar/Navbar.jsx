@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../../assets/logoA.png'
 import './navbar.css'
 
 
@@ -26,8 +25,8 @@ const Navbar = () => {
   return (
     <div className="auto__navbar">
       <div className="auto__navbar-links">
-        <div className="auto__navbar-links_logo">
-        <img src={logo} alt="logo"/>
+        <div className="auto__logo">
+       Autopy
         </div>
         <div className="auto__navbar-links_container">
 
@@ -36,8 +35,9 @@ const Navbar = () => {
       <div className="auto__navbar-sign">
       <p><a href="#home">Home</a></p>
       <p><a href="#about-us">About Us</a></p>
+      <p><a href="#services">Services</a></p>
           <p><a href="#training">Training</a></p>
-           
+        
           <p><a href="#contact-us">Contact Us</a></p>
       </div>
       <div className='auto_navbar-menu'>
@@ -53,8 +53,8 @@ const Navbar = () => {
           <div className="auto__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
             <p><a href="#about-us">About Us</a></p>
-            <p><a href="#training">Training</a></p>
-           
+            <p><a href="#services">Services</a></p>
+            <p><a href="#training">Training</a></p>  
            <p><a href="#contact-us">Contact Us</a></p>
           
           </div>

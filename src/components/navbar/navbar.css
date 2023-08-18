@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Apply styles to the logo */
+.auto__logo {
+  margin-top: 20px;
+  font-family: 'Pacifico', cursive; /* Use the Pacifico font */
+  font-style: italic;
+  font-weight: 100;
+  font-size: xx-large;
+  color: white;
+  text-transform: capitalize;
+}
+.auto__logo::first-letter {
+    text-transform: uppercase;
+  }
+  
+
 .auto__navbar {
     display: flex;
     justify-content: space-between;

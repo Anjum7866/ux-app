@@ -1,24 +1,74 @@
-.gpt3__blog-container_article {
+.gpt3__box-container_article {
     width: 100%;
     height: 100%;
 
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  
+  .gpt3__box-container_article.visible {
+    /* Define animation for visible state */
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+/* Animation effect */
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Move slightly upwards */
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
-.gpt3__blog-container_article-image {
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .gpt3__box-container_article.fade-in {
+    animation-name: fadeInUp;/* Apply the animation */
+}
+
+  /* Apply the animation when element is visible */
+  .gpt3__box-container_article-content.visible {
+    visibility: visible;
+    animation-duration: 2000ms;
+    animation-delay: 400ms;
+    animation-name: fadeInUp;
+  }
+/* Hover effect with animation */
+.gpt3__box-container_article:hover {
+    /* background-color: lightgray; Change the background color on hover */
+    animation: moveUp 0.5s ease-in-out; /* Apply the animation on hover */
+}
+
+
+
+.gpt3__box-container_article-image {
     width: 100%;
     height: 100%;
     background: var(--color-bg);
 }
 
-.gpt3__blog-container_article-image img {
+.gpt3__box-container_article-image img {
     width: 100%;
-    height: 100%;
+    height: 250px;
 }
 
-.gpt3__blog-container_article-content {
+.gpt3__box-container_article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,33 +77,33 @@
     height: 100%;
 }
 
-.gpt3__blog-container_article-content p {
+.gpt3__box-container_article-content p {
     font-family: var(--font-family);
-    font-size: 11.65px;
+    font-size: medium;
     font-weight: 700;
     line-height: 35px;
 
     color: #fff;
 }
 
-.gpt3__blog-container_article-content h3 {
+.gpt3__box-container_article-content h3 {
     font-family: var(--font-family);
     font-size: 25.11px;
     font-weight: 800;
     line-height: 30.30px;
     
     color: #fff;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     cursor: pointer;
 }
 
-.gpt3__blog-container_article-content p:last-child {
+.gpt3__box-container_article-content p:last-child {
     cursor: pointer;
 }
 
 
 @media screen and (max-width: 550px) {
-    .gpt3__blog-container_article-content h3 {
+    .gpt3__box-container_article-content h3 {
         font-size: 18px;
         line-height: 25p;
     }
